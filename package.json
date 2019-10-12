@@ -1,0 +1,28 @@
+{
+  "name": "lab-19-file-writer",
+  "version": "0.0.1",
+  "description": "file-writer-with-socket-queue",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "jest --coverage --verbose"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colosrjones-401d4/lab-19-File-Writer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colosrjones-401d4/lab-19-File-Writer/issues"
+  },
+  "homepage": "https://github.com/colosrjones-401d4/lab-19-File-Writer#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.5",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {}
+}
