@@ -2,7 +2,7 @@
 
 module.exports = exports = {};
 
-exports.readFile = (file, cb) => {
+exports.readFile = async(file, cb) => {
   if (file.match(/bad/i)) {
     cb('Invalid File');
   } else {
@@ -10,7 +10,7 @@ exports.readFile = (file, cb) => {
   }
 };
 
-exports.writeFile = (file, buffer, cb) => {
+exports.writeFile = async(file, buffer, cb) => {
   if (!file || file.match(/bad/i)) {
     cb('Invalid File');
   } else if (!Buffer.isBuffer(buffer) || buffer.includes('bad')) {
